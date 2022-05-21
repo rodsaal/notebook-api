@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81860b56-2778-4a86-abdf-1f64a6e83ebc" name="Changes" comment="">
+    <list default="true" id="81860b56-2778-4a86-abdf-1f64a6e83ebc" name="Changes" comment="chore(locale): Adding i18n gem">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/contacts_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/contacts_controller.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/contact.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/contact.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/environments/development.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/development.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/initializers/cors.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/initializers/cors.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/tasks/dev.rake" beforeDir="false" afterPath="$PROJECT_DIR$/lib/tasks/dev.rake" afterDir="false" />
     </list>
@@ -16,6 +18,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Ruby File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -38,7 +47,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/rodrigo/projetos/notebook-api&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/rodrigo/projetos/odin&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -323,6 +332,16 @@
       <workItem from="1652206393346" duration="27000" />
       <workItem from="1652449528357" duration="5870000" />
       <workItem from="1652546045604" duration="2685000" />
+      <workItem from="1652633262028" duration="3381000" />
+      <workItem from="1652712495889" duration="12000" />
+      <workItem from="1652751447076" duration="2233000" />
+      <workItem from="1652792706212" duration="29000" />
+      <workItem from="1652875765042" duration="4488000" />
+      <workItem from="1653010945075" duration="2242000" />
+      <workItem from="1653054417529" duration="12000" />
+      <workItem from="1653078081564" duration="2240000" />
+      <workItem from="1653093939597" duration="3160000" />
+      <workItem from="1653151832749" duration="314000" />
     </task>
     <task id="LOCAL-00001" summary="build(app): First Commit">
       <created>1652450048468</created>
@@ -352,7 +371,56 @@
       <option name="project" value="LOCAL" />
       <updated>1652450416020</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="chore(locale): Adding i18n gem">
+      <created>1652635030024</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1652635030024</updated>
+    </task>
+    <task id="LOCAL-00006" summary="chore(phone): Creating Phone">
+      <created>1652875984385</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1652875984386</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat(phone): Add associations between phone and contacts">
+      <created>1652876030037</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1652876030037</updated>
+    </task>
+    <task id="LOCAL-00008" summary="chore(task): Adding phone number on contacts">
+      <created>1652876095578</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1652876095578</updated>
+    </task>
+    <task id="LOCAL-00009" summary="chore(gemfile): Adding pry gem">
+      <created>1653078472375</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1653078472375</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat(phones): Crud of phones">
+      <created>1653078523335</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1653078523335</updated>
+    </task>
+    <task id="LOCAL-00011" summary="chore(address): Creating address model">
+      <created>1653152126914</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1653152126914</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -363,6 +431,13 @@
     <MESSAGE value="feat(contacts): Creating contact migration" />
     <MESSAGE value="feat(contacts): Creating contact scaffold" />
     <MESSAGE value="feat(gitignore): Adding .idea files in gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat(gitignore): Adding .idea files in gitignore" />
+    <MESSAGE value="chore(locale): Adding i18n gem" />
+    <MESSAGE value="chore(phone): Creating Phone" />
+    <MESSAGE value="feat(phone): Add associations between phone and contacts" />
+    <MESSAGE value="chore(task): Adding phone number on contacts" />
+    <MESSAGE value="chore(gemfile): Adding pry gem" />
+    <MESSAGE value="feat(phones): Crud of phones" />
+    <MESSAGE value="chore(address): Creating address model" />
+    <option name="LAST_COMMIT_MESSAGE" value="chore(address): Creating address model" />
   </component>
 </project>
