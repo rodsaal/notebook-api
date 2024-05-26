@@ -28,6 +28,7 @@ gem 'rails-i18n', '~> 5.1'
 gem 'rack-cors'
 # ActiveModelSerializers brings convention over configuration to your JSON generation.
 gem 'active_model_serializers', '~> 0.10.0'
+gem 'foreman'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
