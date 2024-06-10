@@ -1,4 +1,9 @@
 class KindsController < ApplicationController
+  # TOKEN = "secret123"
+
+  # include ActionController::HttpAuthentication::Token::ControllerMethods
+  # before_action :authenticate
+  before_action :authenticate_user!
   before_action :set_kind, only: [:show, :update, :destroy]
 
   # GET /kinds
@@ -39,6 +44,15 @@ class KindsController < ApplicationController
   end
 
   private
+
+  # def authenticate
+  #   authenticate_or_request_with_http_token do |token, options|
+  #     ActiveSupport::SecurityUtils.secure_compare(
+  #       ::Digest::SHA256.hexdigest(token),
+  #       ::Digest::SHA256.hexdigest(TOKEN)
+  #     )
+  #   end
+  # end
     # Use callbacks to share common setup or constraints between actions.
     def set_kind
       if params[:contact_id]
