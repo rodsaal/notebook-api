@@ -1,4 +1,5 @@
 class Contact < ApplicationRecord
+  paginates_per 5
 
   #Associations
   belongs_to :kind
