@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="81860b56-2778-4a86-abdf-1f64a6e83ebc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/controllers/v2/addresses_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/v2/kinds_controller.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/v2/phones_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/notebook-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/notebook-api.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/addresses_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/v1/addresses_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/contacts_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/v1/contacts_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/phones_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/v1/phones_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/serializers/contact_serializer.rb" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +43,9 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="27zJWbJJEj5klcuiFP6xLlTmN0l" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -64,7 +59,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/rodrigo/projects/notebook-api/app/controllers/v2",
+    "last_opened_file_path": "/home/rodrigo/projects/notebook-api/app/serializers/v2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -78,6 +73,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/serializers/v2" />
+      <recent name="$PROJECT_DIR$/app/serializers/v1" />
       <recent name="$PROJECT_DIR$/app/controllers/v2" />
       <recent name="$PROJECT_DIR$/app/controllers/v1" />
       <recent name="$PROJECT_DIR$/app/controllers" />
@@ -433,7 +430,8 @@
       <workItem from="1718063126101" duration="560000" />
       <workItem from="1718063697880" duration="138000" />
       <workItem from="1718403829625" duration="772000" />
-      <workItem from="1718493459567" duration="4641000" />
+      <workItem from="1718493459567" duration="5940000" />
+      <workItem from="1718572461896" duration="5034000" />
     </task>
     <task id="LOCAL-00001" summary="build(app): First Commit">
       <created>1652450048468</created>
@@ -562,7 +560,23 @@
       <option name="project" value="LOCAL" />
       <updated>1718063759947</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="refactor[structure]: adding germ versionist">
+      <option name="closed" value="true" />
+      <created>1718498206546</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1718498206546</updated>
+    </task>
+    <task id="LOCAL-00020" summary="refactor[structure]: adding germ versionist">
+      <option name="closed" value="true" />
+      <created>1718498266398</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1718498266398</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -598,10 +612,11 @@
     <MESSAGE value="feat(contact): Adding links to json in contact serializer" />
     <MESSAGE value="feat(gemfile): Adding AMS gem" />
     <MESSAGE value="feat[structure]: Creating devise token auth" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat[structure]: Creating devise token auth" />
+    <MESSAGE value="refactor[structure]: adding germ versionist" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor[structure]: adding germ versionist" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/notebook_api@Rails_console__notebook_api.rcov" NAME="Rails console: notebook-api Coverage Results" MODIFIED="1715550506302" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="notebook-api" />
-    <SUITE FILE_PATH="coverage/notebook_api@Development__notebook_api.rcov" NAME="Development: notebook-api Coverage Results" MODIFIED="1718498094790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="notebook-api" />
+    <SUITE FILE_PATH="coverage/notebook_api@Development__notebook_api.rcov" NAME="Development: notebook-api Coverage Results" MODIFIED="1718579756434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="notebook-api" />
   </component>
 </project>
