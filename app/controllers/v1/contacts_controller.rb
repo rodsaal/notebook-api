@@ -1,5 +1,7 @@
 module V1
   class ContactsController < ApplicationController
+    include ErrorSerializer
+
     before_action :set_contact, only: [:show, :update, :destroy]
 
     # GET /contacts
@@ -25,7 +27,7 @@ module V1
       if @contact.save
         render json: @contact, include: [:kind, :phones, :address], status: :created, location: @contact
       else
-        render json: @contact.errors, status: :unprocessable_entity
+        render json: ErrorSerializer.serialize(@contact.errors) # @contact.errors, status: :unprocessable_entity
       end
     end
 
@@ -51,14 +53,6 @@ module V1
 
     # Only allow a trusted parameter "white list" through.
     def contact_params
-      # params.require(:contact).permit(
-      #   :name,
-      #   :email,
-      #   :birthdate,
-      #   :kind_id,
-      #   phones_attributes: [:id, :number, :_destroy ],
-      #   address_attributes: [:id, :street, :city]
-      #   )
       ActiveModelSerializers::Deserialization.jsonapi_parse(params)
     end
   end
