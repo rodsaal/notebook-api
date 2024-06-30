@@ -46,6 +46,8 @@ group :development, :test do
   gem 'faker'
   #This is a small gem which causes rails console to open pry. It therefore depends on pry.
   gem 'pry-rails'
+
+  gem 'rspec-rails', '~> 3.5'
 end
 
 group :development do
